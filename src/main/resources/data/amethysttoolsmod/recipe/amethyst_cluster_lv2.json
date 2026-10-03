@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "$%$",
+    "%#%",
+    "$%$"
+  ],
+  "key": {
+    "#": {
+      "item": "amethysttoolsmod:amethyst_cluster"
+    },
+    "$": {
+      "item": "minecraft:amethyst_block"
+    },
+    "%": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "amethysttoolsmod:amethyst_cluster_lv2"
+  }
+}

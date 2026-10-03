@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "amethysttoolsmod:diamond_pickaxe_amethyst"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "amethysttoolsmod:netherite_pickaxe_amethyst"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:item_exists",
+          "item": "amethysttoolsmod:diamond_pickaxe_amethyst"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "amethysttoolsmod:netherite_pickaxe_amethyst"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " # ",
+    "#G#",
+    " # "
+  ],
+  "key": {
+    "G": {
+      "item": "amethysttoolsmod:amethyst_arrow"
+    },
+    "#": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "count": 2,
+    "id": "amethysttoolsmod:amethyst_spectral_arrow"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "amethysttoolsmod:amethyst_spectral_arrow"
+    }
+  ]
+}
